@@ -1,6 +1,6 @@
 {
   "name": "gm-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test Angular component in private module",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,13 @@
     "url": "https://github.com/gmatsui/gmComponent/issues"
   },
   "homepage": "https://github.com/gmatsui/gmComponent#readme",
+  "typings": "./index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@angular/core": "^2.4.8",
+    "@types/node": "^7.0.5",
     "rxjs": "^5.2.0",
     "zone.js": "^0.7.7"
   }
