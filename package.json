@@ -1,6 +1,6 @@
 {
   "name": "gm-component",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Test Angular component in private module",
   "main": "index.js",
   "scripts": {

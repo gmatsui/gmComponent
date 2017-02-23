@@ -1,12 +1,22 @@
 {
     "compilerOptions": {
         "noImplicitAny": false,
-        "module": "commonjs",
-        "target": "ES6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "module": "es6",
+        "target": "es5",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true
+        "declaration": true ,
+        "baseUrl": "",
+        "mapRoot": "./",
+        "moduleResolution": "node",
+        "typeRoots": [
+            "../node_modules/@types"
+        ]
     },
     "files": [
         "./index.ts"

@@ -4,16 +4,16 @@ let template = `<h1>{{title}}</h1>`;
 
 let styles = `
 h1 {
-  color: red;
+  color: green;
 }`;
 
 @Component({
-    selector: 'gm-hello',
+    selector: 'gm-bye',
     template: template,
     styles: [styles]
 })
-export class HelloComponent {
+export class ByeComponent {
 
-    title: String = "Hello World!!!"
+    title: String = "Byeee!!"
 
 }
